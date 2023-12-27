@@ -92,7 +92,7 @@
             <h2>Projects</h2>
              <p>Note that this set only contains the list of completed (interesting/useful) projects</p>
             <ul>
-                <li><span class="custom-bullet">&#8226;</span> Project 1 (Description of Project 1)</li>
+                <li><span class="custom-bullet">&#8226;</span><strong>Analysis of Pleiotropy for Testosterone and Lipid Profiles in Males and Females,</strong>National Institute of Biomedical Genomics, Kalyani </li>
                 <li><span class="custom-bullet">&#8226;</span> Project 2 (Description of Project 2)</li>
                 <!-- Add more items as needed -->
             </ul>
