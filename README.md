@@ -78,11 +78,6 @@
             <h2>About</h2>
             <p>I am a B.Stat. Final year student at Indian Statistical Institute, Kolkata.</p>
              <p><a href= "cv.pdf" target="_blank">CV</a></p>
-            <ul>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <!-- Add more items as needed -->
-            </ul>
         </section>
 
         <section>
