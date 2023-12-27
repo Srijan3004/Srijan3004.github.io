@@ -104,13 +104,15 @@
             <h2>Semester Questions</h2>
             <ul>
                 <li><span class="custom-bullet">&#8226;</span><strong>1st semester:</strong> [<a href="Semester 1.zip" target="_blank">Zipped Files</a>]</li>
-                <li><span class="custom-bullet">&#8226;</span><strong>1st semester:</strong> [<a href="Semester 2.zip" target="_blank">Zipped Files</a>]</li>
+                <li><span class="custom-bullet">&#8226;</span><strong>2nd semester:</strong> [<a href="Semester 2.zip" target="_blank">Zipped Files</a>]</li>
+                <li><span class="custom-bullet">&#8226;</span><strong>3rd semester:</strong> [<a href="Semester 3.zip" target="_blank">Zipped Files</a>]</li>
+                <li><span class="custom-bullet">&#8226;</span><strong>4th semester:</strong> [<a href="Semester 4.zip" target="_blank">Zipped Files</a>]</li>
                 <!-- Add more items as needed -->
             </ul>
         </section>
 
         <section>
-            <h2>Problem collectionsfor entrances of ISI-CMI</h2>
+            <h2>Problem collections for entrances of ISI-CMI</h2>
         </section>
         
 
