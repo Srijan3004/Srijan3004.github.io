@@ -36,6 +36,27 @@
             margin-bottom: 8px;
         }
 
+        .custom-bullet {
+            font-size: 1.5em; /* Adjust the size as needed */
+            line-height: 0.8em; /* Adjust the line height to align with the text */
+            margin-right: 8px; /* Adjust the margin between the bullet and the text */
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%; /* Add a border radius for a circular image */
+        }
+
+        a {
+            color: #007bff; /* Blue color for links, you can change this */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
         footer {
             text-align: center;
             padding: 10px;
@@ -67,7 +88,7 @@
         <section>
             <h2>Pre-print</h2>
             <ul>
-                <li>&#8226; <strong>Chattopadhyay, S.</strong> Bhattacharyya, S., A Statistical approach to ecological modeling by a new similarity index [<a href="https://arxiv.org/abs/2304.01944" target="_blank">arXiv:2304.01944</a>]</li>
+                <li><span class="custom-bullet">&#8226;</span> <strong>Chattopadhyay, S.</strong> Bhattacharyya, S., A Statistical approach to ecological modeling by a new similarity index [<a href="https://arxiv.org/abs/2304.01944" target="_blank">arXiv:2304.01944</a>]</li>
                 <li>Item 2</li>
                 <!-- Add more items as needed -->
             </ul>
