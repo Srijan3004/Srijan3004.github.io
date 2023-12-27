@@ -65,7 +65,7 @@
         <section>
             <h2>Pre-print</h2>
             <ul>
-                <li>Item 1</li>
+                <li><strong>First project</strong> (Some description) [<a href="https://arxiv.org/abs/2304.01944" target="_blank">arXiv:2304.01944</a>]</li>
                 <li>Item 2</li>
                 <!-- Add more items as needed -->
             </ul>
