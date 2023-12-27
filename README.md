@@ -54,6 +54,7 @@
         <section>
             <h2>About</h2>
             <p>I am a B.Stat. Final year student at Indian Statistical Institute, Kolkata.</p>
+             <p>Download my resume: <a href=["path/to/your/resume.pdf"](https://github.com/Srijan3004/Srijan3004.github.io/blob/1eb952202d1dd509f4086fc0d749ba42785ffcfa/cv.pdf) target="_blank">Resume.pdf</a></p>
             <ul>
                 <li>Item 1</li>
                 <li>Item 2</li>
