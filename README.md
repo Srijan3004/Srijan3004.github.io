@@ -88,12 +88,14 @@
         </section>
 
         <!-- Add more sections as needed -->
-
         <section>
-            <h2>Projects<h2>
+            <h2>Projects</h2>
             <ul>
-                <li>hi
+                <li><span class="custom-bullet">&#8226;</span> Project 1 (Description of Project 1)</li>
+                <li><span class="custom-bullet">&#8226;</span> Project 2 (Description of Project 2)</li>
+                <!-- Add more items as needed -->
             </ul>
+        </section>
 
     </main>
 
