@@ -52,6 +52,8 @@
     <main>
 
         <section>
+        <!-- Add your image here -->
+            <img src="profile.jpg" style="width: 150px; height: 150px;">
             <h2>About</h2>
             <p>I am a B.Stat. Final year student at Indian Statistical Institute, Kolkata.</p>
              <p><a href= "cv.pdf" target="_blank">CV</a></p>
