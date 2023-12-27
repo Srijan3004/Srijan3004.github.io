@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+/*<!DOCTYPE html>*/
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,12 +8,6 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
-        }
-
-        header {
-            text-align: left;
-            padding: 10px;
-            background-color: #f2f2f2;
         }
 
         main {
@@ -45,10 +39,6 @@
     </style>
 </head>
 <body>
-
-    <header>
-        <h1>Your Name</h1>
-    </header>
 
     <main>
 
