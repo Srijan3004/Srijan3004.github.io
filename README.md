@@ -102,6 +102,7 @@
 
         <section>
             <h2>Semester Questions</h2>
+            <p><strong>Past years resources:</strong><a href = "https://drive.google.com/drive/folders/1mqRwyoDBHyPJHF0IAb6zMTZjtLtjXtuA" target="_blank">Here</a></p>
             <ul>
                 <li><span class="custom-bullet">&#8226;</span><strong>1st semester:</strong> [<a href="Semester 1.zip" target="_blank">Zipped Files</a>]</li>
                 <li><span class="custom-bullet">&#8226;</span><strong>2nd semester:</strong> [<a href="Semester 2.zip" target="_blank">Zipped Files</a>]</li>
