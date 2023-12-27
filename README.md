@@ -37,9 +37,9 @@
         }
 
         .custom-bullet {
-            font-size: 1.5em; /* Adjust the size as needed */
+            font-size: 2em; /* Adjust the size as needed */
             line-height: 0.8em; /* Adjust the line height to align with the text */
-            margin-right: 8px; /* Adjust the margin between the bullet and the text */
+            margin-right: 6px; /* Adjust the margin between the bullet and the text */
         }
 
         img {
