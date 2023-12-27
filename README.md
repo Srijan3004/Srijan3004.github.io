@@ -104,6 +104,7 @@
             <h2>Semester Questions</h2>
             <ul>
                 <li><span class="custom-bullet">&#8226;</span><strong>1st semester:</strong> [<a href="Semester 1.zip" target="_blank">Zipped Files</a>]</li>
+                <li><span class="custom-bullet">&#8226;</span><strong>1st semester:</strong> [<a href="Semester 2.zip" target="_blank">Zipped Files</a>]</li>
                 <!-- Add more items as needed -->
             </ul>
         </section>
