@@ -46,13 +46,14 @@
 <body>
 
     <header>
-        <h1>Your Name</h1>
+        <h1>Srijan Chattopadhyay</h1>
     </header>
 
     <main>
 
         <section>
             <h2>About</h2>
+            <p>I am a B.Stat. Final year student at Indian Statistical Institute, Kolkata.</p>
             <ul>
                 <li>Item 1</li>
                 <li>Item 2</li>
