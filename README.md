@@ -76,7 +76,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2023 Your Name</p>
+        <p>&copy; 2023 Srijan C. All rights reserved</p>
     </footer>
 
 </body>
