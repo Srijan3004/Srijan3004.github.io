@@ -100,6 +100,15 @@
             </ul>
         </section>
 
+        <section>
+            <h2>Semester Questions</h2>
+        </section>
+
+        <section>
+            <h2>Problem collectionsfor entrances of ISI-CMI</h2>
+        </section>
+        
+
     </main>
 
     <footer>
