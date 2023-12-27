@@ -93,7 +93,7 @@
              <p>Note that this set only contains the list of completed (interesting/useful) projects</p>
             <ul>
                 <li><span class="custom-bullet">&#8226;</span><strong>Analysis of Pleiotropy for Testosterone and Lipid Profiles in Males and Females,</strong> National Institute of Biomedical Genomics, Kalyani (Under <a href="https://scholar.google.com/citations?user=XHJ4hqwAAAAJ&hl=en" target="_blank">Dr. Anasuya Chakrabarty</a>, <a href="https://scholar.google.co.in/citations?user=RT3IHNQAAAAJ&hl=en" target="_blank">Dr. Diptarup Nandi</a>, <a href="https://scholar.google.com/citations?user=bNwmKFoAAAAJ&hl=en" target="_blank">Dr. Analabha Basu</a>) </li>
-                <li><span class="custom-bullet">&#8226;</span> Project 2 (Description of Project 2)</li>
+                <li><span class="custom-bullet">&#8226;</span> Project 2 (Description of Project 2) (With Swapnaneel Bhattacharyya, Sevantee Basu) []</li>
                 <!-- Add more items as needed -->
             </ul>
         </section>
