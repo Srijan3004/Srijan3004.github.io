@@ -89,6 +89,12 @@
 
         <!-- Add more sections as needed -->
 
+        <section>
+            <h2>Projects<h2>
+            <ul>
+                <li>hi
+            </ul>
+
     </main>
 
     <footer>
