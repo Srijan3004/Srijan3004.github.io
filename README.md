@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+#<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -30,7 +30,7 @@
 <body>
 
     <header>
-        <h1>Your GitHub Website</h1>
+        <h1>Srijan's Website</h1>
     </header>
 
     <main>
@@ -39,7 +39,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2023 Your Name</p>
+        <p>&copy; 2023 srijan</p>
     </footer>
 
 </body>
