@@ -88,7 +88,7 @@
         <section>
             <h2>Pre-print</h2>
             <ul>
-                <li><span class="custom-bullet">&#8226;</span> <strong>Chattopadhyay, S.</strong> Bhattacharyya, S., A Statistical approach to ecological modeling by a new similarity index [<a href="https://arxiv.org/abs/2304.01944" target="_blank">arXiv:2304.01944</a>]</li>
+                <li><span class="custom-bullet">&#8226;</span> <strong>Chattopadhyay, S.,</strong> Bhattacharyya, S., A Statistical approach to ecological modeling by a new similarity index [<a href="https://arxiv.org/abs/2304.01944" target="_blank">arXiv:2304.01944</a>]</li>
                 <li>Item 2</li>
                 <!-- Add more items as needed -->
             </ul>
