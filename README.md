@@ -91,7 +91,7 @@
 <body>
 
     <header>
-        <h1>Welcome to My GitHub Page</h1>
+        <h1>Welcome</h1>
     </header>
 
     <main>
