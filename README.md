@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +8,7 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 20px;
-            background-color: #DFD3D0;
+            background-color: #f7f7f7;
             color: #333;
         }
 
@@ -16,6 +17,7 @@
             padding: 20px;
             background-color: #007bff;
             color: #fff;
+            border-bottom: 2px solid #fff;
         }
 
         main {
@@ -24,7 +26,7 @@
 
         section {
             margin-bottom: 20px;
-            border-radius: 5px;
+            border-radius: 8px;
             background-color: #fff;
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -64,6 +66,7 @@
             height: auto;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 2px solid #007bff;
         }
 
         a {
@@ -85,6 +88,7 @@
             padding: 20px;
             background-color: #007bff;
             color: #fff;
+            border-top: 2px solid #fff;
         }
     </style>
 </head>
@@ -134,7 +138,7 @@
                 <li><span class="custom-bullet">&#8226;</span><strong>Face Recognition using PCA & LDA</strong>
                     <br>(Course Instrtuctor: <a href="https://www.isical.ac.in/~arnabc/" target="_blank">Dr. Arnab Chakraborty</a>)
                     <br>[<a href="Face_recognition (1).pdf" target="_blank">Report of the project</a>]
-                </li>
+                                </li>
                 <!-- Add more items as needed -->
             </ul>
         </section>
@@ -152,13 +156,9 @@
         </section>
 
         <section>
-        <h2>Problem Collections and Notes for Entrances of ISI-CMI, Olympiads</h2>
-        <ul>
-            <li><span class="custom-bullet">&#8226;</span><strong>Number Theory:</strong> [<a href="Number Theory.pdf" target="_blank">Short notes</a>]</li>
-             <li><span class="custom-bullet">&#8226;</span><strong>Inequality:</strong> [<a href="Inequality.pdf" target="_blank">Short notes</a>]</li>
-             <li><span class="custom-bullet">&#8226;</span><strong>Trigonometry:</strong> [<a href="Trigonometry.pdf" target="_blank">Short notes</a>]</li>
-        </ul>
-    </section>
+            <h2>Problem Collections for Entrances of ISI-CMI</h2>
+            <!-- Add content for the problem collections section as needed -->
+        </section>
 
     </main>
 
@@ -168,3 +168,4 @@
 
 </body>
 </html>
+
