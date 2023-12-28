@@ -154,7 +154,7 @@
 
         <section>
             <h2>Problem Collections and Notes for Entrances of ISI-CMI, Olympiads</h2>
-            ul>
+            <ul>
                 <li><span class="custom-bullet">&#8226;</span><strong>Number Theory:</strong> [<a href="Number Theory.pdf" target="_blank">Short notes</a>]</li>
                  <li><span class="custom-bullet">&#8226;</span><strong>Inequality:</strong> [<a href="Inequality.pdf" target="_blank">Short notes</a>]</li>
                  <li><span class="custom-bullet">&#8226;</span><strong>Trigonometry:</strong> [<a href="Trigonometry.pdf" target="_blank">Short notes</a>]</li>
