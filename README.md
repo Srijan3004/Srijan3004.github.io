@@ -147,6 +147,7 @@
                 <li><span class="custom-bullet">&#8226;</span><strong>2nd semester:</strong> [<a href="Semester 2.zip" target="_blank">Zipped Files</a>]</li>
                 <li><span class="custom-bullet">&#8226;</span><strong>3rd semester:</strong> [<a href="Semester 3.zip" target="_blank">Zipped Files</a>]</li>
                 <li><span class="custom-bullet">&#8226;</span><strong>4th semester:</strong> [<a href="Semester 4.zip" target="_blank">Zipped Files</a>]</li>
+                <li><span class="custom-bullet">&#8226;</span><strong>5th semester:</strong> [<a href="Semester 5.zip" target="_blank">Zipped Files</a>]</li>
                 <!-- Add more items as needed -->
             </ul>
         </section>
