@@ -7,7 +7,7 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 20px;
-            background-color: #D8C0BE;
+            background-color: #5C1407;
             color: #333;
         }
 
@@ -23,6 +23,7 @@
         }
 
         section {
+            text-align: center
             margin-bottom: 20px;
             border-radius: 5px;
             background-color: #fff;
