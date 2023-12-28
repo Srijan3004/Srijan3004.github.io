@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,8 +12,8 @@
         }
 
         header {
-            text-align: left;
-            padding: 10px;
+            text-align: center;
+            padding: 20px;
             background-color: #007bff;
             color: #fff;
         }
@@ -27,16 +26,20 @@
             margin-bottom: 20px;
             border-radius: 5px;
             background-color: #fff;
-            padding: 15px;
+            padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         h2 {
             color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
         }
 
         p {
             line-height: 1.5;
+            color: #555;
         }
 
         ul {
@@ -45,7 +48,8 @@
         }
 
         li {
-            margin-bottom: 8px;
+            margin-bottom: 12px;
+            color: #333;
         }
 
         .custom-bullet {
@@ -78,29 +82,26 @@
 
         footer {
             text-align: center;
-            padding: 10px;
+            padding: 20px;
             background-color: #007bff;
             color: #fff;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Srijan Chattopadhyay</h1>
+        <h1>Welcome to My GitHub Page</h1>
     </header>
 
     <main>
 
         <section>
             <!-- Add your image here -->
-            <img src="Srijan.jpeg" style="width: 150px; height: 180px;">
-            <h2>About</h2>
+            <img src="Srijan.jpeg" style="width: 150px; height: 180px; display: block; margin: 0 auto 20px;">
+            <h2>About Me</h2>
             <p>I am a B.Stat. Final year student at Indian Statistical Institute, Kolkata.</p>
-             <p class="center-align"><a href= "cv.pdf" target="_blank">View CV</a></p>
+            <p class="center-align"><a href="cv.pdf" target="_blank">View CV</a></p>
         </section>
 
         <section>
@@ -110,22 +111,37 @@
             </ul>
         </section>
 
-        <!-- Add more sections as needed -->
         <section>
             <h2>Projects</h2>
-            <p><strong>Note that this set only contains the list of completed projects</strong></p>
+            <p><strong>Note:</strong> This set only contains the list of completed projects</p>
             <ul>
-                <li><span class="custom-bullet">&#8226;</span><strong>Analysis of Pleiotropy for Testosterone and Lipid Profiles in Males and Females,</strong> National Institute of Biomedical Genomics, Kalyani (Under <a href="https://scholar.google.com/citations?user=XHJ4hqwAAAAJ&hl=en" target="_blank">Dr. Anasuya Chakrabarty</a>, <a href="https://scholar.google.co.in/citations?user=RT3IHNQAAAAJ&hl=en" target="_blank">Dr. Diptarup Nandi</a>, <a href="https://scholar.google.com/citations?user=bNwmKFoAAAAJ&hl=en" target="_blank">Dr. Analabha Basu</a>)(with Swapnaneel Bhattacharyya, Sevantee Basu) [<a href="NIBMG_report_Final.pdf" target="_blank">Report of the project</a>]</li>
-               <li><span class="custom-bullet">&#8226;</span><strong>Variation of Poverty Index over Household Size through Estimated Engel Curve for Chhattisgarh </strong> (Course Instrtuctor: <a href = "https://isi.irins.org/profile/111474" target="_blank">Dr. Nachiketa Chattopadhyay</a>)  [<a href="ecostat_proj2.pdf" target="_blank">Report of the project</a>]</li>
-               <li><span class="custom-bullet">&#8226;</span><strong>A Regression-based approach of Peak Detection in humming audio data </strong> (Course Instrtuctor: <a href = "https://www.isical.ac.in/~arnabc/" target="_blank">Dr. Arnab Chakraborty</a>)  [<a href="Srijan_and_Swapnaneel.pdf" target="_blank">Report of the project</a>]</li>
-               <li><span class="custom-bullet">&#8226;</span><strong>Face Recognition using PCA & LDA </strong> (Course Instrtuctor: <a href = "https://www.isical.ac.in/~arnabc/" target="_blank">Dr. Arnab Chakraborty</a>)  [<a href="Face_recognition (1).pdf" target="_blank">Report of the project</a>]</li>
+                <li><span class="custom-bullet">&#8226;</span><strong>Analysis of Pleiotropy for Testosterone and Lipid Profiles in Males and Females</strong>
+                    <br>National Institute of Biomedical Genomics, Kalyani
+                    <br>(Under <a href="https://scholar.google.com/citations?user=XHJ4hqwAAAAJ&hl=en" target="_blank">Dr. Anasuya Chakrabarty</a>,
+                    <a href="https://scholar.google.co.in/citations?user=RT3IHNQAAAAJ&hl=en" target="_blank">Dr. Diptarup Nandi</a>,
+                    <a href="https://scholar.google.com/citations?user=bNwmKFoAAAAJ&hl=en" target="_blank">Dr. Analabha Basu</a>)
+                    <br>With Swapnaneel Bhattacharyya, Sevantee Basu
+                    <br>[<a href="NIBMG_report_Final.pdf" target="_blank">Report of the project</a>]
+                </li>
+                <li><span class="custom-bullet">&#8226;</span><strong>Variation of Poverty Index over Household Size through Estimated Engel Curve for Chhattisgarh</strong>
+                    <br>(Course Instrtuctor: <a href="https://isi.irins.org/profile/111474" target="_blank">Dr. Nachiketa Chattopadhyay</a>)
+                    <br>[<a href="ecostat_proj2.pdf" target="_blank">Report of the project</a>]
+                </li>
+                <li><span class="custom-bullet">&#8226;</span><strong>A Regression-based approach of Peak Detection in humming audio data</strong>
+                    <br>(Course Instrtuctor: <a href="https://www.isical.ac.in/~arnabc/" target="_blank">Dr. Arnab Chakraborty</a>)
+                    <br>[<a href="Srijan_and_Swapnaneel.pdf" target="_blank">Report of the project</a>]
+                </li>
+                <li><span class="custom-bullet">&#8226;</span><strong>Face Recognition using PCA & LDA</strong>
+                    <br>(Course Instrtuctor: <a href="https://www.isical.ac.in/~arnabc/" target="_blank">Dr. Arnab Chakraborty</a>)
+                    <br>[<a href="Face_recognition (1).pdf" target="_blank">Report of the project</a>]
+                </li>
                 <!-- Add more items as needed -->
             </ul>
         </section>
 
         <section>
             <h2>Semester Questions</h2>
-            <p><strong>Past years resources: </strong><a href="https://drive.google.com/drive/folders/1mqRwyoDBHyPJHF0IAb6zMTZjtLtjXtuA" target="_blank">Here</a></p>
+            <p><strong>Past years resources:</strong> <a href="https://drive.google.com/drive/folders/1mqRwyoDBHyPJHF0IAb6zMTZjtLtjXtuA" target="_blank">Here</a></p>
             <ul>
                 <li><span class="custom-bullet">&#8226;</span><strong>1st semester:</strong> [<a href="Semester 1.zip" target="_blank">Zipped Files</a>]</li>
                 <li><span class="custom-bullet">&#8226;</span><strong>2nd semester:</strong> [<a href="Semester 2.zip" target="_blank">Zipped Files</a>]</li>
@@ -136,7 +152,7 @@
         </section>
 
         <section>
-            <h2>Problem collections for entrances of ISI-CMI</h2>
+            <h2>Problem Collections for Entrances of ISI-CMI</h2>
         </section>
 
     </main>
