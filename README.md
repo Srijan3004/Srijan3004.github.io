@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,14 +8,14 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 20px;
-            background-color: #DAD1CF;
+            background-color: #f7f7f7;
             color: #333;
         }
 
         header {
             text-align: center;
             padding: 20px;
-            background-color: #5C1407;
+            background-color: #007bff;
             color: #fff;
         }
 
@@ -23,12 +24,11 @@
         }
 
         section {
-            text-align: center
             margin-bottom: 20px;
             border-radius: 5px;
             background-color: #fff;
             padding: 20px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         h2 {
@@ -92,7 +92,7 @@
 <body>
 
     <header>
-        <h1>Welcome</h1>
+        <h1>Welcome to My GitHub Page</h1>
     </header>
 
     <main>
@@ -148,19 +148,18 @@
                 <li><span class="custom-bullet">&#8226;</span><strong>2nd semester:</strong> [<a href="Semester 2.zip" target="_blank">Zipped Files</a>]</li>
                 <li><span class="custom-bullet">&#8226;</span><strong>3rd semester:</strong> [<a href="Semester 3.zip" target="_blank">Zipped Files</a>]</li>
                 <li><span class="custom-bullet">&#8226;</span><strong>4th semester:</strong> [<a href="Semester 4.zip" target="_blank">Zipped Files</a>]</li>
-                <li><span class="custom-bullet">&#8226;</span><strong>5th semester:</strong> [<a href="Semester 5.zip" target="_blank">Zipped Files</a>]</li>
                 <!-- Add more items as needed -->
             </ul>
         </section>
 
         <section>
-            <h2>Problem Collections and Notes for Entrances of ISI-CMI, Olympiads</h2>
-            <ul>
-                <li><span class="custom-bullet">&#8226;</span><strong>Number Theory:</strong> [<a href="Number Theory.pdf" target="_blank">Short notes</a>]</li>
-                 <li><span class="custom-bullet">&#8226;</span><strong>Inequality:</strong> [<a href="Inequality.pdf" target="_blank">Short notes</a>]</li>
-                 <li><span class="custom-bullet">&#8226;</span><strong>Trigonometry:</strong> [<a href="Trigonometry.pdf" target="_blank">Short notes</a>]</li>
-            </ul>
-        </section>
+        <h2>Problem Collections and Notes for Entrances of ISI-CMI, Olympiads</h2>
+        <ul>
+            <li><span class="custom-bullet">&#8226;</span><strong>Number Theory:</strong> [<a href="Number Theory.pdf" target="_blank">Short notes</a>]</li>
+             <li><span class="custom-bullet">&#8226;</span><strong>Inequality:</strong> [<a href="Inequality.pdf" target="_blank">Short notes</a>]</li>
+             <li><span class="custom-bullet">&#8226;</span><strong>Trigonometry:</strong> [<a href="Trigonometry.pdf" target="_blank">Short notes</a>]</li>
+        </ul>
+    </section>
 
     </main>
 
@@ -170,4 +169,3 @@
 
 </body>
 </html>
-
