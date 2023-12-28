@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -5,14 +6,17 @@
     <title>Your GitHub Website</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 20px;
+            background-color: #f7f7f7;
+            color: #333;
         }
 
         header {
             text-align: left;
             padding: 10px;
-            background-color: #f2f2f2;
+            background-color: #007bff;
+            color: #fff;
         }
 
         main {
@@ -21,10 +25,18 @@
 
         section {
             margin-bottom: 20px;
+            border-radius: 5px;
+            background-color: #fff;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         h2 {
-            color: #007bff; /* Blue color for section titles, you can change this */
+            color: #007bff;
+        }
+
+        p {
+            line-height: 1.5;
         }
 
         ul {
@@ -37,30 +49,41 @@
         }
 
         .custom-bullet {
-            font-size: 2em; /* Adjust the size as needed */
-            line-height: 0.1em; /* Adjust the line height to align with the text */
-            margin-right: 5px; /* Adjust the margin between the bullet and the text */
+            font-size: 1.5em;
+            line-height: 0.1em;
+            margin-right: 10px;
+            color: #007bff;
         }
 
         img {
             max-width: 100%;
             height: auto;
-            border-radius: 50%; /* Add a border radius for a circular image */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         a {
-            color: #007bff; /* Blue color for links, you can change this */
+            color: #007bff;
             text-decoration: none;
+            font-weight: bold;
         }
 
         a:hover {
             text-decoration: underline;
         }
 
+        .center-align {
+            text-align: center;
+        }
+
         footer {
             text-align: center;
             padding: 10px;
-            background-color: #f2f2f2;
+            background-color: #007bff;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
@@ -73,11 +96,11 @@
     <main>
 
         <section>
-        <!-- Add your image here -->
+            <!-- Add your image here -->
             <img src="Srijan.jpeg" style="width: 150px; height: 180px;">
             <h2>About</h2>
             <p>I am a B.Stat. Final year student at Indian Statistical Institute, Kolkata.</p>
-             <p class="center-align"><a href= "cv.pdf" target="_blank">CV</a></p>
+             <p class="center-align"><a href= "cv.pdf" target="_blank">View CV</a></p>
         </section>
 
         <section>
@@ -102,7 +125,7 @@
 
         <section>
             <h2>Semester Questions</h2>
-            <p><strong>Past years resources: </strong><a href = "https://drive.google.com/drive/folders/1mqRwyoDBHyPJHF0IAb6zMTZjtLtjXtuA" target="_blank"> Here</a></p>
+            <p><strong>Past years resources: </strong><a href="https://drive.google.com/drive/folders/1mqRwyoDBHyPJHF0IAb6zMTZjtLtjXtuA" target="_blank">Here</a></p>
             <ul>
                 <li><span class="custom-bullet">&#8226;</span><strong>1st semester:</strong> [<a href="Semester 1.zip" target="_blank">Zipped Files</a>]</li>
                 <li><span class="custom-bullet">&#8226;</span><strong>2nd semester:</strong> [<a href="Semester 2.zip" target="_blank">Zipped Files</a>]</li>
@@ -115,7 +138,6 @@
         <section>
             <h2>Problem collections for entrances of ISI-CMI</h2>
         </section>
-        
 
     </main>
 
@@ -125,3 +147,4 @@
 
 </body>
 </html>
+
