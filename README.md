@@ -111,6 +111,7 @@
             <h2>Pre-prints</h2>
             <ul>
                 <li><span class="custom-bullet">&#8226;</span><strong>Chattopadhyay, S.,</strong> Bhattacharyya, S., A Statistical approach to ecological modeling by a new similarity index [<a href="https://arxiv.org/abs/2304.01944" target="_blank">arXiv:2304.01944</a>]</li>
+                <li><span class="custom-bullet">&#8226;</span><strong>Chattopadhyay, S.,</strong> Bhattacharyya, S., Basu, S., Analysis of Pleiotropy for Testosterone and Lipid Profiles in Males and Females [<a href="https://arxiv.org/abs/2312.16241" target="_blank">	arXiv:2312.16241</a>]</li>
             </ul>
         </section>
 
