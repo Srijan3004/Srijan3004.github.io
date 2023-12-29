@@ -117,7 +117,7 @@
 
         <section>
             <h2>Projects</h2>
-            <p><strong>Note:This set only contains the list of completed projects</strong></p>
+            <p><strong>Note: This set only contains the list of completed projects</strong></p>
             <ul>
                 <li><span class="custom-bullet">&#8226;</span><strong>Analysis of Pleiotropy for Testosterone and Lipid Profiles in Males and Females</strong>
                     <br>National Institute of Biomedical Genomics, Kalyani
