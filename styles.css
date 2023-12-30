@@ -1,14 +1,14 @@
 body {
     font-family: 'Arial', 'Helvetica', sans-serif;
     margin: 20px;
-    background-color: #F8F8F8;
+    background: linear-gradient(to right, #F8F8F8, #E8E8E8);
     color: #333;
 }
 
 header {
     text-align: center;
     padding: 20px;
-    background-color: #2C3E50;
+    background: linear-gradient(to right, #2C3E50, #34495E);
     color: #ECF0F1;
     border-bottom: 2px solid #ECF0F1;
 }
@@ -22,10 +22,12 @@ nav a {
     text-decoration: none;
     color: #ECF0F1;
     font-weight: bold;
+    transition: color 0.3s ease-in-out;
 }
 
 nav a:hover {
     text-decoration: underline;
+    color: #3498DB;
 }
 
 main {
@@ -35,9 +37,14 @@ main {
 section {
     margin-bottom: 20px;
     border-radius: 8px;
-    background-color: #fff;
+    background: linear-gradient(to right, #fff, #F5F5F5);
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+section:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 h2 {
@@ -73,10 +80,15 @@ img.profile-image {
     max-width: 100%;
     height: auto;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     border: 2px solid #3498DB;
     display: block;
     margin: 0 auto 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+img.profile-image:hover {
+    transform: scale(1.1);
 }
 
 a {
@@ -96,7 +108,7 @@ a:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #2C3E50;
+    background: linear-gradient(to right, #2C3E50, #34495E);
     color: white;
     border-top: 2px solid #ECF0F1;
 }
