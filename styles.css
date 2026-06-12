@@ -1,64 +1,90 @@
+/* Custom Fonts & Smooth Scrolling */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 body {
-    font-family: 'Arial', 'Helvetica', sans-serif;
-    margin: 20px;
-    background: linear-gradient(to right, #1a1a1a, #333333);
-    color: #d9d9d9;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Soft off-white */
+    color: #2d3748; /* Deep charcoal for high readability without harshness */
+    line-height: 1.7;
 }
 
+/* Main Content Wrapper to center and control layout width */
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Header Styling */
 header {
     text-align: center;
-    padding: 20px;
-    background: linear-gradient(to right, #006666, #004d4d);
-    color: #ffffff;
-    border-bottom: 2px solid #ffffff;
+    padding: 50px 20px 30px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
 }
 
+header h1 {
+    font-size: 2.2rem;
+    color: #1e3a8a; /* Deep Navy */
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+/* Navigation Links */
 nav {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 nav a {
-    margin: 0 10px;
+    margin: 0 15px;
     text-decoration: none;
-    color: #ffffff;
-    font-weight: bold;
-    transition: color 0.3s ease-in-out;
+    color: #4a5568;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
 }
 
 nav a:hover {
-    text-decoration: underline;
-    color: #66b2b2;
+    text-decoration: none;
+    color: #2563eb; /* Vibrant Blue Accent */
 }
 
-main {
-    padding: 20px;
-}
-
+/* Section Containers - Minimal Card Style */
 section {
-    margin-bottom: 20px;
-    border-radius: 8px;
-    background: linear-gradient(to right, #2d2d2d, #404040);
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    transition: box-shadow 0.3s ease-in-out;
+    margin-bottom: 35px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 section:hover {
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
+/* Section Headings */
 h2 {
-    color: #66b2b2;
-    border-bottom: 2px solid #66b2b2;
-    padding-bottom: 10px;
+    color: #1e3a8a;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-bottom: 2px solid #edf2f7;
+    padding-bottom: 8px;
+    margin-top: 0;
     margin-bottom: 20px;
 }
 
+/* Paragraphs & Text */
 p {
-    line-height: 1.6;
-    color: #bfbfbf;
+    color: #4a5568;
+    margin-bottom: 1.5rem;
 }
 
+/* Lists */
 ul {
     list-style-type: none;
     padding: 0;
@@ -66,60 +92,65 @@ ul {
 
 li {
     margin-bottom: 12px;
-    color: #d9d9d9;
+    color: #4a5568;
+    display: flex;
+    align-items: flex-start;
 }
 
+/* Refined Bullet Points */
 .custom-bullet {
-    font-size: 1.5em;
-    line-height: 0.1em;
+    font-size: 1.2em;
     margin-right: 10px;
-    color: #66b2b2;
+    color: #2563eb;
+    line-height: 1.2;
 }
 
-img.profile-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
-    border: 2px solid #66b2b2;
-    display: block;
-    margin: 0 auto 20px;
-    transition: transform 0.3s ease-in-out;
-}
-
-img.profile-image:hover {
-    transform: scale(1.1);
-}
-
+/* Inline Links */
 a {
-    color: #66b2b2;
+    color: #2563eb;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 500;
+    transition: color 0.2s ease;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #1d4ed8;
+}
+
+/* Profile Image Styling */
+img.profile-image {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+    display: block;
+    margin: 0 auto 20px;
+    transition: transform 0.3s ease;
+}
+
+img.profile-image:hover {
+    transform: scale(1.05);
 }
 
 .center-align {
     text-align: center;
 }
 
+/* Clean, Unobtrusive Footer */
 footer {
     text-align: center;
-    padding: 20px;
-    background: linear-gradient(to right, #006666, #004d4d);
-    color: #ffffff;
-    border-top: 2px solid #ffffff;
-    position: relative;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    color: #718096;
+    font-size: 0.9rem;
+    border-top: 1px solid #e2e8f0;
+    margin-top: 60px;
 }
 
-footer:before {
-    content: '\00a9';
-    font-size: 1.5em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #66b2b2;
+/* Fixed the broken relative centering from the original code */
+footer::before {
+    content: '© ';
+    font-weight: normal;
 }
