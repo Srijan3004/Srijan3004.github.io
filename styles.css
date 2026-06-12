@@ -1,90 +1,65 @@
-/* Custom Fonts & Smooth Scrolling */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa; /* Soft off-white */
-    color: #2d3748; /* Deep charcoal for high readability without harshness */
-    line-height: 1.7;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    margin: 20px;
+    background: #ffffff; /* Pure white background */
+    color: #000000; /* Black text */
 }
 
-/* Main Content Wrapper to center and control layout width */
-main {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 0 20px;
-}
-
-/* Header Styling */
 header {
     text-align: center;
-    padding: 50px 20px 30px;
-    background-color: #ffffff;
-    border-bottom: 1px solid #e2e8f0;
+    padding: 20px;
+    background: #ffffff; /* White background */
+    color: #000000; /* Black text */
+    border-bottom: 2px solid #000000; /* Solid black divider */
 }
 
-header h1 {
-    font-size: 2.2rem;
-    color: #1e3a8a; /* Deep Navy */
-    margin-bottom: 15px;
-    font-weight: 700;
-}
-
-/* Navigation Links */
 nav {
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 nav a {
-    margin: 0 15px;
+    margin: 0 10px;
     text-decoration: none;
-    color: #4a5568;
-    font-weight: 500;
-    font-size: 0.95rem;
-    transition: color 0.2s ease;
+    color: #000000; /* Black links */
+    font-weight: bold;
+    transition: opacity 0.2s ease-in-out;
 }
 
 nav a:hover {
-    text-decoration: none;
-    color: #2563eb; /* Vibrant Blue Accent */
+    text-decoration: underline;
+    opacity: 0.7; /* Subtle hover effect instead of color change */
 }
 
-/* Section Containers - Minimal Card Style */
+main {
+    padding: 20px;
+}
+
 section {
-    margin-bottom: 35px;
-    border-radius: 12px;
-    background-color: #ffffff;
-    padding: 30px;
-    border: 1px solid #e2e8f0;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #ffffff; /* White background for sections */
+    padding: 20px;
+    border: 1px solid #e0e0e0; /* Subtle light gray border instead of a heavy shadow */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 section:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Section Headings */
 h2 {
-    color: #1e3a8a;
-    font-size: 1.4rem;
-    font-weight: 600;
-    border-bottom: 2px solid #edf2f7;
-    padding-bottom: 8px;
-    margin-top: 0;
+    color: #000000; /* Black headings */
+    border-bottom: 2px solid #000000; /* Black bottom border */
+    padding-bottom: 10px;
     margin-bottom: 20px;
 }
 
-/* Paragraphs & Text */
 p {
-    color: #4a5568;
-    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    color: #222222; /* Soft black for comfortable long-form reading */
 }
 
-/* Lists */
 ul {
     list-style-type: none;
     padding: 0;
@@ -92,65 +67,55 @@ ul {
 
 li {
     margin-bottom: 12px;
-    color: #4a5568;
-    display: flex;
-    align-items: flex-start;
+    color: #222222;
 }
 
-/* Refined Bullet Points */
 .custom-bullet {
-    font-size: 1.2em;
+    font-size: 1.5em;
+    line-height: 0.1em;
     margin-right: 10px;
-    color: #2563eb;
-    line-height: 1.2;
+    color: #000000; /* Black bullet points */
 }
 
-/* Inline Links */
-a {
-    color: #2563eb;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.2s ease;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: #1d4ed8;
-}
-
-/* Profile Image Styling */
 img.profile-image {
-    max-width: 150px;
+    max-width: 100%;
     height: auto;
     border-radius: 50%;
-    border: 3px solid #ffffff;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border: 2px solid #000000; /* Black image border */
     display: block;
     margin: 0 auto 20px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease-in-out;
 }
 
 img.profile-image:hover {
     transform: scale(1.05);
 }
 
+a {
+    color: #000000; /* Black content links */
+    text-decoration: underline; /* Standard underline for clarity in text */
+    font-weight: bold;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
 .center-align {
     text-align: center;
 }
 
-/* Clean, Unobtrusive Footer */
 footer {
     text-align: center;
-    padding: 40px 20px;
-    background-color: #ffffff;
-    color: #718096;
-    font-size: 0.9rem;
-    border-top: 1px solid #e2e8f0;
-    margin-top: 60px;
+    padding: 20px;
+    background: #ffffff; /* White background */
+    color: #000000; /* Black text */
+    border-top: 2px solid #000000; /* Black top divider */
 }
 
-/* Fixed the broken relative centering from the original code */
+/* Fixed the absolute positioning conflict from the original template */
 footer::before {
     content: '© ';
-    font-weight: normal;
+    font-weight: bold;
 }
