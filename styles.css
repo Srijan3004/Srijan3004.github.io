@@ -7,27 +7,27 @@ body {
 
 header {
     text-align: center;
-    padding: 20px;
-    background: #ffffff; /* White background */
-    color: #000000; /* Black text */
+    padding: 30px 20px;
+    background: #1e40af; /* Deep professional blue */
+    color: #ffffff; /* White text for clear contrast on blue */
     border-bottom: 2px solid #000000; /* Solid black divider */
 }
 
 nav {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 nav a {
     margin: 0 10px;
     text-decoration: none;
-    color: #000000; /* Black links */
+    color: #ffffff; /* White links to stand out against the blue header */
     font-weight: bold;
     transition: opacity 0.2s ease-in-out;
 }
 
 nav a:hover {
     text-decoration: underline;
-    opacity: 0.7; /* Subtle hover effect instead of color change */
+    opacity: 0.8; 
 }
 
 main {
@@ -37,9 +37,9 @@ main {
 section {
     margin-bottom: 20px;
     border-radius: 8px;
-    background: #ffffff; /* White background for sections */
+    background: #fef9c3; /* Light yellow background for boxes */
     padding: 20px;
-    border: 1px solid #e0e0e0; /* Subtle light gray border instead of a heavy shadow */
+    border: 1px solid #eab308; /* Subtle darker yellow/gold border */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     transition: box-shadow 0.3s ease-in-out;
 }
@@ -93,13 +93,13 @@ img.profile-image:hover {
 }
 
 a {
-    color: #000000; /* Black content links */
-    text-decoration: underline; /* Standard underline for clarity in text */
+    color: #1e40af; /* Blue content links to match the header */
+    text-decoration: underline; 
     font-weight: bold;
 }
 
 a:hover {
-    opacity: 0.7;
+    color: #1d4ed8;
 }
 
 .center-align {
@@ -114,7 +114,6 @@ footer {
     border-top: 2px solid #000000; /* Black top divider */
 }
 
-/* Fixed the absolute positioning conflict from the original template */
 footer::before {
     content: '© ';
     font-weight: bold;
