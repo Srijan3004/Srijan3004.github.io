@@ -10,3 +10,17 @@
 @media(max-width:900px){.container,.header-inner,.footer-inner{width:calc(100% - 48px)}.header-inner{gap:18px}.site-header nav{gap:16px}.hero{gap:32px;padding-top:55px;padding-bottom:48px}.hero h1{font-size:clamp(42px,6.3vw,64px)}.interest-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.background-grid{gap:28px}.brand-text{font-size:13px}.brand-text small{font-size:10px}.portrait figcaption{font-size:10px}}
 @media(max-width:650px){html{scroll-padding-top:125px}.container,.header-inner,.footer-inner{width:calc(100% - 36px)}.header-inner{min-height:0;padding:12px 0 0;flex-wrap:wrap;gap:10px}.brand{flex:1}.brand-text{font-size:14px}.theme-toggle{order:2}.site-header nav{order:3;flex-basis:100%;justify-content:space-between;gap:8px;overflow-x:auto}.site-header nav a{padding:8px 2px 14px;font-size:13px;white-space:nowrap}.site-header nav a[aria-current=page]:after{bottom:7px}.hero{grid-template-columns:1fr;gap:28px;padding:42px 0 35px}.hero h1{font-size:clamp(42px,10.2vw,65px);margin-top:14px}.hero-role{font-size:18px}.hero-intro{font-size:16px;margin:14px 0 22px}.portrait{justify-self:start;max-width:300px;width:90%}.portrait img{aspect-ratio:4/5}.section{padding:35px 0}.section-heading{align-items:flex-start;flex-direction:column;gap:10px;margin-bottom:20px}.section-heading>p{text-align:left;max-width:none}.paper-grid,.resource-grid,.contact-grid,.background-grid{grid-template-columns:1fr}.interest-grid{gap:10px}.interest{padding:15px}.interest h3{font-size:15px}.interest p{font-size:12px}.paper{padding:20px}.paper h3{font-size:22px}.page-intro{padding:43px 0 30px}.page-intro h1{font-size:clamp(43px,10vw,65px)}.page-intro>p:not(.eyebrow){font-size:16px}.research-controls{align-items:stretch;flex-direction:column}.search{width:100%}.talk{align-items:flex-start;flex-direction:column;gap:12px;padding:18px}.talk h3{font-size:18px}.contact-grid{padding-top:25px}.contact-card{padding:20px}.footer-inner{flex-direction:column;gap:20px}.footer-right{text-align:left}.footer-right .socials{justify-content:flex-start}.footer-inner p{max-width:320px}.hero-socials{gap:15px}.button{padding:10px 13px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+/* Optional motion experiment: one-time, gently staggered slide reveals. */
+@media (prefers-reduced-motion: no-preference) {
+  .slide-pending { opacity: 0; translate: var(--slide-x, 0px) var(--slide-y, 24px); }
+  .slide-reveal { animation: academic-slide-in 560ms cubic-bezier(.22,.75,.25,1) var(--slide-delay, 0ms) both; }
+  .slide-pending:focus-within, .slide-reveal:focus-within { opacity: 1; translate: none; animation: none; }
+  @keyframes academic-slide-in {
+    from { opacity: 0; translate: var(--slide-x, 0px) var(--slide-y, 24px); }
+    to { opacity: 1; translate: 0 0; }
+  }
+  @media (max-width: 650px) {
+    .slide-pending, .slide-reveal { --slide-x: 0px !important; --slide-y: 18px !important; }
+  }
+}
